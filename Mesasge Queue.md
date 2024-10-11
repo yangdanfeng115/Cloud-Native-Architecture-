@@ -28,9 +28,15 @@ Message queues help distribute the workload among multiple consumers. When there
 
 **Common Message Queue Systems:**
 **RabbitMQ**: Implements the AMQP (Advanced Message Queuing Protocol) and supports complex message routing.
+
 **Apache Kafka**: A distributed event streaming platform used for building real-time data pipelines and applications.
+
 **Amazon SQS**: A cloud-based message queuing service that is fully managed by AWS.
+
 **Use Cases for Message Queues:**
+
 **Decoupling systems**: Different components of an application can communicate without depending on each other's availability.
+
 **Event-driven architectures**: Systems that rely on events being produced and consumed asynchronously, such as user notifications, logs, etc.
+
 **Task scheduling**: Background jobs like sending emails, processing images, or long-running database tasks can be queued and processed later.
