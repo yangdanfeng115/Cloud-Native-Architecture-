@@ -1,6 +1,7 @@
 Here’s how to implement Publish-Subscribe Model and Point-to-Point Model in Kafka using Java. These examples demonstrate how to configure consumers and producers for each model.
 
-1. Publish-Subscribe Model (Pub-Sub)
+**1. Publish-Subscribe Model (Pub-Sub)**
+
 In this model, each consumer is independent (they don’t share a consumer group). Every consumer receives all the messages published to the topic.
 
 Pub-Sub Consumer Code:
