@@ -59,3 +59,6 @@ tcp6       0      0 ::1:6379                :::*                    LISTEN
 
 # 7. In windows，use RedisInsight to check the connection with Redis in WSL.
 
+![Alt Text](https://github.com/yangdanfeng115/Cloud-Native-Architecture-/blob/main/images/connection%20with%20redis.png)
+
+
