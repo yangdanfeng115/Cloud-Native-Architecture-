@@ -67,7 +67,8 @@ This allows the pod to run on any node with the environment taint, regardless of
 Taints restrict nodes by preventing unwanted pods from running on them.
 Tolerations allow pods to bypass taints and be scheduled on these nodes.
 
-# The PreferNoSchedule effect in Kubernetes is a soft restriction on scheduling. It means that Kubernetes will try to avoid placing pods on a node with this taint, but it will still schedule them there if no better options are available.
+# The PreferNoSchedule effect 
+The PreferNoSchedule effect in Kubernetes is a soft restriction on scheduling. It means that Kubernetes will try to avoid placing pods on a node with this taint, but it will still schedule them there if no better options are available.
 
 How It Works
 If a node has a PreferNoSchedule taint, Kubernetes prefers not to place pods there.
