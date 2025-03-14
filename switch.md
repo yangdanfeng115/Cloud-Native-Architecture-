@@ -2,18 +2,8 @@
 
 # 网络拓扑结构
 
-+---------+            +------------+               +---------+
-
-| Host A  |--------    |  Switch    |     --------  | Host B  |
-
-| (PC1)   |            | (Layer 2)  |               | (PC2)   |
-
-+---------+            +------------+               +---------+
-
-  MAC A                  MAC Table                    MAC B
-   
-IP: 192.168.1.10                                   IP: 192.168.1.20
-   
+  ![网络拓扑图](https://github.com/yangdanfeng115/Cloud-Native-Architecture-/blob/main/images/mac.png)
+ 
 
 # 数据交互过程
 假设 Host A（192.168.1.10, MAC A）想要给 Host B（192.168.1.20, MAC B）发送数据，交换机是如何处理的呢？
